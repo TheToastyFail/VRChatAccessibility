@@ -18,7 +18,7 @@ using VRC;
 using VRC.Core;
 using VRC.UI.Core;
 
-[assembly: MelonInfo(typeof(MainClass), "VRChat Accessability", "1.0", "ToastyFail & Plague")]
+[assembly: MelonInfo(typeof(MainClass), "VRChat Accessibility", "1.0", "ToastyFail & Plague")]
 [assembly: MelonGame("VRChat", "VRChat")]
 [assembly: MelonColor(ConsoleColor.Magenta)]
 
@@ -48,7 +48,7 @@ namespace VRChatAccessibility
             public float AssistStrength { get; set; } = 1f;
         }
 
-        public static ConfigLib<Configuration> Config = new(Environment.CurrentDirectory + "\\VRChat Accessability.json");
+        public static ConfigLib<Configuration> Config = new(Environment.CurrentDirectory + "\\VRChat Accessibility.json");
 
         public override void OnApplicationStart()
         {
@@ -201,11 +201,11 @@ namespace VRChatAccessibility
         {
             ButtonAPI.OnInit += () =>
             {
-                var Page = MenuPage.CreatePage(WingSingleButton.Wing.Both, null, "VRChat Accessability", "<color=#ff00ff>VRChat Accessability</color>", true, false, null, "", null, true).Item1;
+                var Page = MenuPage.CreatePage(WingSingleButton.Wing.Both, null, "VRChat Accessibility", "<color=#ff00ff>VRChat Accessibility</color>", true, false, null, "", null, true).Item1;
 
                 MainMenu = Page.AddCollapsibleButtonGroup("Main Options", true);
 
-                UserSelectedPage = new CollapsibleButtonGroup(TransformHelper.SelectedUser_Local, "<color=#ff00ff>VRChat Accessability</color>");
+                UserSelectedPage = new CollapsibleButtonGroup(TransformHelper.SelectedUser_Local, "<color=#ff00ff>VRChat Accessibility</color>");
 
                 foreach (var module in BaseModules)
                 {

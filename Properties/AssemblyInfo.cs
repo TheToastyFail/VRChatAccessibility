@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VRChat Accessability")]
-[assembly: AssemblyDescription("VRChat Accessability, A VRChat Mod Created By ToastyFail Using Plague's ModBaseMaker.")]
+[assembly: AssemblyTitle("VRChat Accessibility")]
+[assembly: AssemblyDescription("VRChat Accessibility, A VRChat Mod Created By ToastyFail Using Plague's ModBaseMaker.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ToastyFail")]
-[assembly: AssemblyProduct("VRChat Accessability")]
+[assembly: AssemblyProduct("VRChat Accessibility")]
 [assembly: AssemblyCopyright("Copyright © ToastyFail 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
