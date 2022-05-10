@@ -12,11 +12,13 @@ using PlagueButtonAPI.Controls;
 using PlagueButtonAPI.Controls.Grouping;
 using PlagueButtonAPI.External_Libraries;
 using PlagueButtonAPI.Main;
+using PlagueButtonAPI.Misc;
 using PlagueButtonAPI.Pages;
 using UnityEngine;
 using VRC;
 using VRC.Core;
 using VRC.UI.Core;
+using Resources = VRChatAccessibility.Properties.Resources;
 
 [assembly: MelonInfo(typeof(MainClass), "VRChat Accessibility", "1.0", "ToastyFail & Plague")]
 [assembly: MelonGame("VRChat", "VRChat")]
@@ -197,11 +199,15 @@ namespace VRChatAccessibility
             OnQuickMenuInit();
         }
 
+        public static Sprite Logo;
+
         public static void OnQuickMenuInit()
         {
             ButtonAPI.OnInit += () =>
             {
-                var Page = MenuPage.CreatePage(WingSingleButton.Wing.Both, null, "VRChat Accessibility", "<color=#ff00ff>VRChat Accessibility</color>", true, false, null, "", null, true).Item1;
+                Logo = Resources.ColourBlindLogo_Transparent.GetSpriteFromResource();
+
+                var Page = MenuPage.CreatePage(WingSingleButton.Wing.Both, Logo, "VRChat Accessibility", "<color=#ff00ff>VRChat Accessibility</color>", true, true, null, "", Logo, true).Item1;
 
                 MainMenu = Page.AddCollapsibleButtonGroup("Main Options", true);
 
