@@ -28,7 +28,7 @@ namespace VRChatAccessibility
             var Comp = Camera.main.gameObject.AddComponent<ColourBlindComponent>();
             Comp.Material = Bundle.Load<GameObject>("LoadMe.prefab").GetComponent<MeshRenderer>().material;
 
-            var page = MainClass.MainMenu.AddSubMenu(MainClass.Logo, "ColourBlind", "ColourBlind Options").Item1;
+            var page = MainClass.MainMenu.AddSubMenu(MainClass.Logo, "ColourBlind", "ColourBlind Options", true, true, null, "", MainClass.Logo, true).Item1;
 
             var Access = page.AddCollapsibleButtonGroup("Colour Blind Assist", true);
 
