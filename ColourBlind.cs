@@ -9,7 +9,7 @@ using MelonLoader;
 using PlagueButtonAPI.Controls;
 using UnityEngine;
 
-namespace VRChatAccessability
+namespace VRChatAccessibility
 {
     internal class ColourBlind : BaseModule
     {
@@ -17,7 +17,7 @@ namespace VRChatAccessability
 
         public override void OnApplicationStart()
         {
-            if (!Bundle.LoadBundle(Assembly.GetExecutingAssembly(), "VRChatAccessability.Resources.assistshader.asset")) // This If Also Checks If It Successfully Loaded As To Prevent Further Exceptions
+            if (!Bundle.LoadBundle(Assembly.GetExecutingAssembly(), "VRChatAccessibility.Resources.assistshader.asset")) // This If Also Checks If It Successfully Loaded As To Prevent Further Exceptions
             {
                 MelonLogger.Error("Failed To Load Bundle! Error: " + Bundle.error);
             }

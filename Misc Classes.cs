@@ -7,7 +7,7 @@ using UnityEngine;
 using VRC;
 using VRC.Core;
 
-namespace VRChatAccessability
+namespace VRChatAccessibility
 {
     public class LoadOrder : Attribute
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using MelonLoader;
 using UnityEngine;
 
-namespace VRChatAccessability
+namespace VRChatAccessibility
 {
     [RegisterTypeInIl2Cpp]
     public class ColourBlindComponent : MonoBehaviour

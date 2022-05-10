@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using MelonLoader;
-using VRChatAccessability;
+using VRChatAccessibility;
 using PlagueButtonAPI;
 using PlagueButtonAPI.Controls;
 using PlagueButtonAPI.Controls.Grouping;
@@ -22,7 +22,7 @@ using VRC.UI.Core;
 [assembly: MelonGame("VRChat", "VRChat")]
 [assembly: MelonColor(ConsoleColor.Magenta)]
 
-namespace VRChatAccessability
+namespace VRChatAccessibility
 {
     internal class MainClass : MelonMod
     {
@@ -82,7 +82,7 @@ namespace VRChatAccessability
                 module?.OnApplicationStart();
             }
 
-            MelonLogger.Msg("Finished Loading VRChatAccessability!");
+            MelonLogger.Msg("Finished Loading VRChatAccessibility!");
         }
 
 
