@@ -8,7 +8,7 @@ Requires [PlagueButtonAPI](https://github.com/PlagueVRC/PlagueButtonAPI)
 
 Step 1. Install MelonLoader (Ideally 0.5.3) from [__**here**__](https://github.com/LavaGang/MelonLoader/releases/download/v0.5.3/MelonLoader.Installer.exe)
 
-Step 2. Download HandHaptics.dll from the right in Releases, found [__**here**__](https://github.com/TheToastyFail/VRChatAccessability/releases), and place the file into your VRChat's Mods folder, you can find this by right clicking VRChat in Steam and selecting Manage -> Browse local files.
+Step 2. Download VRChatAccessability.dll from the right in Releases, found [__**here**__](https://github.com/TheToastyFail/VRChatAccessability/releases), and place the file into your VRChat's Mods folder, you can find this by right clicking VRChat in Steam and selecting Manage -> Browse local files.
 
 Step 3. Download PlagueButtonAPI.dll from [Plague](https://github.com/PlagueVRC)'s repository, found [__**here**__](https://github.com/PlagueVRC/PlagueButtonAPI/releases), and place the file into your VRChat's Mods folder, you can find this by right clicking VRChat in Steam and selecting Manage -> Browse local files.
 
