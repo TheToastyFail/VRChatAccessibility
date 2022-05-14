@@ -1,5 +1,7 @@
 # VRChatAccessibility [![Downloads](https://img.shields.io/github/downloads/TheToastyFail/VRChatAccessibility/total?color=magenta&label=Downloads:)](https://github.com/TheToastyFail/VRChatAccessibility/releases)
 
+# Note: This only functions in desktop mode. This will be fixed in the future.
+
 VRChatAccessibility is a mod to add accessibility to VRChat for colour blind users.
 
 Requires [PlagueButtonAPI](https://github.com/PlagueVRC/PlagueButtonAPI)
